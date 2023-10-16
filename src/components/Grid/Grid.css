@@ -1,0 +1,18 @@
+.grid{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.turn-highlight{
+    color: #fff;
+}
+.reset{
+    padding: 1rem;
+    border-radius: 10%;
+    border: #fff;
+    color: #fff;
+    background-color: var(--resetGreen);
+}
